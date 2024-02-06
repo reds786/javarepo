@@ -1,0 +1,60 @@
+class J1{
+	public static void main(String[] arg){
+		System.out.println("Reds the great");
+		System.out.println(110000 + 20000);
+		System.out.println(/*new Float(*/110000 / 20000/*)*/);
+		
+		byte myNum = 127;
+		System.out.println(myNum);
+
+		float f1 = 3e3f;
+		double d1 = 12E4d;
+		System.out.println(f1);
+		System.out.println(d1);
+		
+		boolean isJavaFun = true;
+		boolean isFishTasty = false;
+		System.out.println(isJavaFun);     // Outputs true
+		System.out.println(isFishTasty);   // Outputs false
+		
+		char myGrade = 'B';
+		System.out.println(myGrade);
+		
+		char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+		System.out.println(myVar1);
+		System.out.println(myVar2);
+		System.out.println(myVar3);
+		
+		String greeting = "Hello World";
+		System.out.println(greeting);
+		
+		int myInt = 9;
+    double myDouble = myInt; // Automatic casting: int to double
+
+    System.out.println(myInt);      // Outputs 9
+    System.out.println(myDouble);   // Outputs 9.0
+		
+		double myDouble1 = 9.78d;
+		int myInt1 = (int) myDouble;
+		System.out.println(myInt1);
+		System.out.println(myDouble1);
+		String txt = "Please locate where 'locate' occurs!";
+		System.out.println(txt.indexOf("l")); // Outputs 7
+		
+		String firstName = "John ";
+		String lastName = "Doe";
+		System.out.println(firstName.concat(lastName));
+		
+		String x = "10";
+		int y = 20;
+		String z = x + y;  // z will be 1020 (a String)
+
+
+ 
+		
+
+
+
+
+	}
+}
